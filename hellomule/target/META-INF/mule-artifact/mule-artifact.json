@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "hellomule.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:hellomule:1.0.0",
+  "minMuleVersion": "4.6.0",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.example"
+      ],
+      "exportedResources": [
+        "hellomule.xml",
+        "log4j2.xml",
+        "src/main/java/com/example/GreetingService.java"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
